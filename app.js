@@ -8,7 +8,7 @@ const transactionsController = require("./controllers/transactions.controller.js
 const categoriesController = require("./controllers/categories.controller.js");
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my Budgeting App!");
+  res.send("Welcome to Budget App!");
 });
 
 app.use("/transactions", transactionsController);
